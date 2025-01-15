@@ -1,0 +1,2 @@
+train_mse_error,train_mse_std,val_mse_error,val_mse_std,train_mae_error,train_mae_std,val_mae_error,val_mae_std,train_corr,train_corr_pval,validation_corr,validation_corr_pval
+3.0708,0.0913,3.6342,0.0352,13.6999,0.2129,14.8908,0.1274,0.7432,0.0,0.6869,0.0

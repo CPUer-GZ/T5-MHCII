@@ -137,7 +137,7 @@ class Trainer:
 
         kf = KFold(n_splits=5, shuffle=True, random_state=42)
         fold_results = []
-        output_dir = os.path.expanduser('~/prott5_results')
+        output_dir = os.path.expanduser('~/results')
         os.makedirs(output_dir, exist_ok=True)
     
         for fold, (train_idx, valid_idx) in enumerate(tqdm(kf.split(self.dataset), desc='Fold_loop', leave=False, dynamic_ncols=True)):
@@ -259,7 +259,7 @@ class Trainer:
 
 if __name__ == "__main__":
 
-    h5_file_path = os.path.expanduser("/home/data/ProtT5.h5")
+    h5_file_path = os.path.expanduser("/home/data/ProtT5.h5") # 替换为自己的数据集路径
 
     dataset = BindDataset(h5_file_path)
 

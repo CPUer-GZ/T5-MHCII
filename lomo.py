@@ -217,7 +217,7 @@ class Trainer:
 
 if __name__ == "__main__":
 
-    h5_file_path = os.path.expanduser('~/encoded_data.h5')
+    h5_file_path = os.path.expanduser('~/encoded_data.h5') # Path to the encoded data file
 
     dataset = BindDataset(h5_file_path)
 
